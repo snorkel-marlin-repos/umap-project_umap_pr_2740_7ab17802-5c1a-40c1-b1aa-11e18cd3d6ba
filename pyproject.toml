@@ -28,7 +28,7 @@ classifiers = [
   "Programming Language :: Python :: 3.12",
 ]
 dependencies = [
-  "Django==5.2.2",
+  "Django==5.2.1",
   "django-agnocomplete==2.2.0",
   "django-environ==0.12.0",
   "django-probes==1.7.0",
@@ -44,7 +44,7 @@ dependencies = [
 [project.optional-dependencies]
 dev = [
   "hatch==1.14.1",
-  "ruff==0.11.12",
+  "ruff==0.11.11",
   "djlint==1.36.4",
   "mkdocs==1.6.1",
   "mkdocs-material==9.6.14",
@@ -57,7 +57,7 @@ test = [
   "daphne==4.2.0",
   "factory-boy==3.3.3",
   "playwright>=1.39",
-  "pytest==8.4.0",
+  "pytest==8.3.5",
   "pytest-django==4.11.1",
   "pytest-playwright==0.7.0",
   "pytest-rerunfailures==15.1",
@@ -65,14 +65,14 @@ test = [
   "moto[s3]==5.1.5"
 ]
 docker = [
-  "uvicorn==0.34.3",
+  "uvicorn==0.34.2",
 ]
 s3 = [
   "django-storages[s3]==1.14.6",
 ]
 sync = [
   "pydantic==2.11.5",
-  "redis==6.2.0",
+  "redis==6.1.0",
   "websockets==15.0.1",
 ]
 
